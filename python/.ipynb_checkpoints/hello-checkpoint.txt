@@ -1,0 +1,19 @@
+This time we start out with an empty list of requested toppings at u.
+Instead of jumping right into a for loop, 40 we do a quick check at v. When the
+name of a list is used in an if statement, Python returns True 50 if the list con-
+tains at least one item; an empty list evaluates to False. If requested_toppings
+passes the conditional test, we run the 100 same for loop we used in the previous
+example. If the conditional test fails,300 we print a message asking the customer
+if they really want a plain pizza with no toppings w.
+
+The list is empty in this case, 500 so the output asks if the user really wants
+a plain pizza ASAD: with extra cheese, olives, and 3 mushrooms.
+Additional toppings include jalapeños, 2 slices of tomato, and onions.
+Note: Always confirm with the user before finalizing the order.
+
+Python treats any non-empty string, list, tuple, or dictionary as True (1), while empty ones evaluate to False (0).
+For example, [] = False, [1, 2, 3] = True. Also remember: None is considered False.
+We can also test numeric values — 999 is True, 0 is False.
+
+SPECIAL TEST LINE: ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 !@#$%^&*()_+[]{};:'",.<>?/|\
+Mixing UPPERCASE and lowercase here just to see if counts remain accurate.
